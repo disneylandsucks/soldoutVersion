@@ -1,6 +1,7 @@
 const canvasWidth = window.innerWidth
 const canvasHeight = window.innerHeight
 let img, img2, mod, shirt
+let bg, wg;
 let imgs = [], imageCounter = 0
 let theta = 0
 
@@ -8,13 +9,13 @@ let clicked = false
 
 function preload(){
     audio = createAudio("Katy Perry - Firework (Acoustic Session) REMASTERED.mp3");
-//     audio = createAudio("Carly Rae Jepsen - Call Me Maybe (Audio) [TubeRipper.com].m4a");
+    // audio = createAudio("Carly Rae Jepsen - Call Me Maybe (Audio) [TubeRipper.com].m4a");
 
 imgs[0]= loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1667320480/yellow_red_qwsvgm.jpg')
- imgs[1] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1665773929/voldemort_shirt_resized_ytqhl7.png') 
+ imgs[1] = loadImage('https://media.tenor.com/MzHlcOrTROIAAAAC/steve-harvey-sorry-about-that.gif') 
     imgs[2]= loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1665773929/OSKI_BIRTHDAY_SHIRT3d_resized_or4zka.png')
- imgs[3] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1665773929/DemnaShirt_resized_ko0nu6.png') 
-  imgs[4]= loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1665773930/carolshirt3d_resized_xs8lip.png')
+ imgs[3] = loadImage('https://data.whicdn.com/images/341092582/original.gif') 
+  imgs[4]= loadImage('https://media.tenor.com/AsTgvSWKJwMAAAAM/blood-sticker.gif')
   imgs[5]= loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1665773929/bottledloveshirt3d_flsb0r.png')
   imgs[6] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1665884116/NOTEBOOKSHIRTTEXT_w3jjsn.jpg')
     imgs[7] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1665884680/yourCardDeclined_ShirtMockup_vnw9pc.png')    
@@ -36,11 +37,15 @@ imgs[0]= loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v16673
   
   
   mod = loadModel('3dtext_SoldOut.obj')
-  mod2 = loadModel ('Finished_Voldemort_3dthing.obj')
+  mom = loadModel ('Finished_Voldemort_3dthing.obj')
 }
 
 
 function setup() {
+  bg = loadImage('https://media.tenor.com/MzHlcOrTROIAAAAC/steve-harvey-sorry-about-that.gif');
+
+  wg = loadImage ('https://res.cloudinary.com/painkillerkid/image/upload/v1669759171/wordstuff_hfaksw.png');
+  
   createCanvas(canvasWidth, canvasHeight, WEBGL);
   angleMode(DEGREES)
   shirt = new Shirt(imgs[0], mod, 0, -100, 0, theta)
@@ -49,7 +54,21 @@ function setup() {
 }
 
 function draw() {
-  background('rgb(0,0,0)'); 
+  background(100);
+  push();
+  noStroke();
+translate(30, 20, -3000);
+  texture(bg);
+  plane(9000, 5000);
+  pop();  
+  
+//     push();
+//   noStroke();
+// translate(530, 1120, -2220);
+//   texture(wg);
+//   plane(2200,2200);
+//   pop();  
+  
   audio.autoplay(true);
   audio.loop(true);
   if(clicked){
