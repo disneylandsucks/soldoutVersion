@@ -14,7 +14,7 @@ function preload(){
 imgs[0]= loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1667320480/yellow_red_qwsvgm.jpg')
  imgs[1] = loadImage('https://media.tenor.com/MzHlcOrTROIAAAAC/steve-harvey-sorry-about-that.gif') 
     imgs[2]= loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1665773929/OSKI_BIRTHDAY_SHIRT3d_resized_or4zka.png')
- imgs[3] = loadImage('https://data.whicdn.com/images/341092582/original.gif') 
+ imgs[3] = loadImage('https://i0.wp.com/www.printmag.com/wp-content/uploads/2021/02/4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif?fit=476%2C280&ssl=1') 
   imgs[4]= loadImage('https://media.tenor.com/AsTgvSWKJwMAAAAM/blood-sticker.gif')
   imgs[5]= loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1665773929/bottledloveshirt3d_flsb0r.png')
   imgs[6] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1665884116/NOTEBOOKSHIRTTEXT_w3jjsn.jpg')
