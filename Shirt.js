@@ -21,7 +21,7 @@ class Shirt{
   render(){
     noStroke()
     push()
-      translate(this.pos.x, this.pos.y, this.pos.z)
+      translate(this.pos.x, this.pos.y, -theta)
       scale(100.0)
       translate(0, 2, 3)
       rotateX(180)
