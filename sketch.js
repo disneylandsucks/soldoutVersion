@@ -7,15 +7,15 @@ let theta = 0
 let clicked = false
 
 function preload(){
-    // audio = createAudio("Katy Perry - Firework (Acoustic Session) REMASTERED.mp3");
-    audio = createAudio("Carly Rae Jepsen - Call Me Maybe (Audio) [TubeRipper.com].m4a");
+    audio = createAudio("Katy Perry - Firework (Acoustic Session) REMASTERED.mp3");
+//     audio = createAudio("Carly Rae Jepsen - Call Me Maybe (Audio) [TubeRipper.com].m4a");
 
 imgs[0]= loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1667320480/yellow_red_qwsvgm.jpg')
- imgs[1] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1665773929/voldemort_shirt_resized_ytqhl7.png') 
+ imgs[1] = loadImage('https://media.tenor.com/MzHlcOrTROIAAAAC/steve-harvey-sorry-about-that.gif') 
     imgs[2]= loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1665773929/OSKI_BIRTHDAY_SHIRT3d_resized_or4zka.png')
- imgs[3] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1665773929/DemnaShirt_resized_ko0nu6.png') 
-  imgs[4]= loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1665773930/carolshirt3d_resized_xs8lip.png')
-  imgs[5]= loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1665773929/bottledloveshirt3d_flsb0r.png')
+ imgs[3] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1686796927/CharizardGif_h3eagy.gif') 
+  imgs[4]= loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1686797096/BloodGif_p1qmk3.gif')
+  imgs[5]= loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1686797014/NayanCatGif_vuruez.gif')
   imgs[6] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1665884116/NOTEBOOKSHIRTTEXT_w3jjsn.jpg')
     imgs[7] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1665884680/yourCardDeclined_ShirtMockup_vnw9pc.png')    
   imgs[8] = loadImage('  https://res.cloudinary.com/painkillerkid/image/upload/v1665888592/OSKIWEDDING_SHIRT_tz6okn.png')
@@ -29,10 +29,6 @@ imgs[0]= loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v16673
   imgs[13] = loadImage(' https://res.cloudinary.com/painkillerkid/image/upload/v1665978926/oski_peeing_shirt_xtvoe3.png')
     
   imgs[14] = loadImage(' https://res.cloudinary.com/painkillerkid/image/upload/v1666047243/thisisstupidshirt_wltht1.png')  
-  
-//   imgs[15] = loadImage(' https://res.cloudinary.com/painkillerkid/image/upload/v1665960566/MXMTOON_Shirt_iqmgow.png')
-        
-  // imgs[15] = loadImage(' https://www.pinkvilla.com/files/styles/amp_metadata_content_image/public/kevin-hart-wins-halloween-2019-by-dressing-up-as-frenemy-dwayne-johnson-the-rock-is-anything-but-impressed.jpg')
   
   
   mod = loadModel('3dtext_SoldOut.obj')
