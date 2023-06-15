@@ -6,7 +6,7 @@ canvas {
   display: block;
 }
 .topnav {
-  background-color: #0012FF;
+  background-color: lime;
   overflow: hidden;
 }
 
@@ -23,13 +23,13 @@ canvas {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #D0FF00;
-  color: rgb(0,0,0);
+  background-color: #F10000;
+  color: red);
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: red;
   color: white;
 }
 
