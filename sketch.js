@@ -37,7 +37,10 @@ imgs[0]= loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v16673
 
 
 function setup() {
-  bg = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1691893607/See_You_At_Sothebys2_bykmit.png');
+  bg = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1768099313/Auction_New_iqgqv8.png');
+
+      // bg = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1691893607/See_You_At_Sothebys2_bykmit.png');
+
 
   wg = loadImage ('https://res.cloudinary.com/painkillerkid/image/upload/v1669759171/wordstuff_hfaksw.png');
   
